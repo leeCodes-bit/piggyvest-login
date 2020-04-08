@@ -14,8 +14,8 @@ const data = [
                     rate = 2;
                 } else {
                     rate = 1;
-                };
-                console.log(rate);
+                }
+
                 const interest = (value.principal * rate * value.time) / 100;
                 
                 value.rate = rate;

@@ -27,5 +27,6 @@ const data = [
             console.log(interestData);
             return interestData;
         }
+        //called the function and stored the returned value in a variable
         const interestResult = interestCalculator(data);
        console.log(interestResult);
